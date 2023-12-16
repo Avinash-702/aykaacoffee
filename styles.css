@@ -35,7 +35,7 @@ body, h1, h2, h3, p, ul {
   
   /* Styles for the hero section */
   .hero {
-    background-image: url('aVINASH.png'); /* Replace 'path/to/your/coffee-image.jpg' with the actual image path */
+    background-image: url('./aVINASH.png'); /* Replace 'path/to/your/coffee-image.jpg' with the actual image path */
     background-size: cover;
     background-color: black;
     color: white; /* Set text color for better readability */
