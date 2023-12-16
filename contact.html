@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Header content remains the same as the previous example -->
+  </header>
+
+  <main>
+    <section class="contact">
+      <p>Contact no- +91 9512257331</p>
+      <p>Address-116,MM Road Cox town,Bangalore.560005</p>
+      <p>Email id-avinashbadlani303@gmail.com</p>
+      <p></p>
+      <!-- Add contact information, form, or other details -->
+    </section>
+  </main>
+
+  <footer>
+    <script>
+      fetch('footer.html')
+          .then(response => response.text())
+          .then(data => {
+              document.querySelector('footer').innerHTML = data;
+          });
+  </script>
+  </footer>
+</body>
+</html>
