@@ -64,8 +64,8 @@ p {
   word-spacing: 5px; /* Adjust the value as needed */
 }
 .about{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   margin-bottom: 30px;
 }
 body, html {
